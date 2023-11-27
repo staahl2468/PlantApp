@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlantApp", "PlantApp\PlantApp.csproj", "{B1EE2076-D2CB-4762-BD81-7E79DEA2CE3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1EE2076-D2CB-4762-BD81-7E79DEA2CE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1EE2076-D2CB-4762-BD81-7E79DEA2CE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1EE2076-D2CB-4762-BD81-7E79DEA2CE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1EE2076-D2CB-4762-BD81-7E79DEA2CE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1811A94F-50B7-480D-B4C1-CE26EBB3960F}
+	EndGlobalSection
+EndGlobal
