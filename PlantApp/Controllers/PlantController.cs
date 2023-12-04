@@ -22,7 +22,7 @@ namespace PlantApp.Controllers
             _context = context;
         }
 
-        [HttpGet]
+        [HttpGet("GetAllPlants")]
         public async Task<ActionResult<List<Plant>>> Get()
         {
             return Ok(await _context.Plant.ToListAsync());
@@ -37,7 +37,7 @@ namespace PlantApp.Controllers
             return Ok(plant);
         }
 
-        [HttpPost]
+        [HttpPost("AddPlant")]
         public async Task<ActionResult<List<Plant>>> AddPlant(Plant plant)
         {
             // Check if Genus, Leaf, and Soil with the provided IDs exist in the database

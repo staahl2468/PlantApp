@@ -15,7 +15,7 @@ namespace PlantApp.Controllers
             _context = context;
         }
 
-        [HttpGet]
+        [HttpGet("GetAllGenus")]
         public async Task<ActionResult<List<Genus>>> Get()
         {
             return Ok(await _context.Genus.ToListAsync());
@@ -30,7 +30,7 @@ namespace PlantApp.Controllers
             return Ok(genus);
         }
         
-        [HttpPost]
+        [HttpPost("AddGenus")]
         public async Task<ActionResult<List<Genus>>> AddGenus(Genus genus)
         {
             _context.Genus.Add(genus);
